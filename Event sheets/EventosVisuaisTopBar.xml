@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventosVisuaisTopBar</name>
+    <events>
+        <event-group description="" sid="259636863861772" title="DefineHorario">
+            <sub-events>
+                <event-block sid="179206098959072">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="632381894061118" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="572068990663212" type="Hora">
+                            <param id="0" name="Text">Desktop.ExecJS(&quot;Date()&quot;)+Desktop.ExecJS(&quot;Date().getTime()&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
