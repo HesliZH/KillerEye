@@ -11,8 +11,10 @@
     <saved-with-version>27900</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -113,6 +115,25 @@
             <object-type name="Desktop" sid="181729438691770">
                 <plugin id="Browser" />
             </object-type>
+            <object-type name="Touch" sid="820138071311389">
+                <plugin id="Touch" />
+            </object-type>
+            <object-type name="Mouse" sid="576073940306430">
+                <plugin id="Mouse" />
+            </object-type>
+        </object-folder>
+        <object-folder name="MenuApp">
+            <object-type name="BackgroundSideBar2" sid="149859411499274">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="MenuAberto" sid="570861148716664" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="553895325089180" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
     </object-folder>
     <families />
@@ -125,10 +146,19 @@
             <event-sheet>EventosVisuaisSideBar.xml</event-sheet>
             <event-sheet>EventosVisuaisTopBar.xml</event-sheet>
         </event-folder>
+        <event-folder name="EventosEsseciais">
+            <event-sheet>AcionamentosDeTela.xml</event-sheet>
+        </event-folder>
         <event-sheet>Eventos Main.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Desktop" uid="6" />
+        <global-instance type="Touch" uid="8">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="9" />
     </global-instances>
     <sounds-folder />
     <music-folder />

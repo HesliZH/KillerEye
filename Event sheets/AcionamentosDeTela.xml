@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>AcionamentosDeTela</name>
+    <events>
+        <event-group description="" sid="130401427552029" title="AbreMenu">
+            <sub-events>
+                <event-block sid="348714672726072">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="586202943432863" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Menu</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="357476738053300" type="BackgroundSideBar2">
+                            <param id="0" name="Instance variable">MenuAberto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="489668241783323" type="BackgroundSideBar2">
+                            <param id="0" name="X">540</param>
+                            <param id="1" name="Y">873</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="630694863405438" type="BackgroundSideBar2">
+                            <param id="0" name="Instance variable">MenuAberto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="758755527178041" type="System">
+                            <param id="0" name="Group name">&quot;AbreMenu&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" inactive="1" sid="603386184769328" title="FechaMenu">
+            <sub-events>
+                <event-block sid="888547683941825">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="798785259421792" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Menu</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="857328289929698" type="BackgroundSideBar2">
+                            <param id="0" name="Instance variable">MenuAberto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="249051331528218" type="BackgroundSideBar2">
+                            <param id="0" name="X">2410</param>
+                            <param id="1" name="Y">879</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="938593787554693" type="BackgroundSideBar2">
+                            <param id="0" name="Instance variable">MenuAberto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="327853642802145" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="678995858851302" type="System">
+                            <param id="0" name="Group name">&quot;AbreMenu&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="557483219324339" type="System">
+                            <param id="0" name="Group name">&quot;FechaMenu&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

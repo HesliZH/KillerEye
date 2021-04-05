@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Eventos Main</name>
     <events>
+        <include>AcionamentosDeTela</include>
         <include>EventosVisuaisTopBar</include>
         <include>EventosVisuaisSideBar</include>
         <include>EventosWallpaper</include>
