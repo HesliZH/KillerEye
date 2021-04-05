@@ -9,7 +9,10 @@
     <app-id>com.hitkillstudios.killer</app-id>
     <unique-id>12cjdoo7l4ax4</unique-id>
     <saved-with-version>27900</saved-with-version>
-    <used-plugins />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Tilemap" version="1">Tilemap</plugin>
+    </used-plugins>
     <used-behaviors />
     <used-effects />
     <configurations>
@@ -37,12 +40,47 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-folder name="Wallpaper">
+            <object-type name="Wallpaper" sid="288771957339012">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="ID" sid="632111878778482" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="3" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746225793769513" speed="0">
+                        <frame duration="1" hotspotX="0.500194" hotspotY="0.500251" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\7-78049_small-memory-8k-wallpaper-forest-minimalist-wallpaper-4k.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\48-481922_m.jpg" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\Purple-Sky-Laptop-HD-WallPaper-1920-x-1080-px-1.jpg" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="SideBar">
+            <object-type name="BackgroundSideBar" sid="887045841414900">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822334307852098" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Icones" sid="865416482950857">
+                <plugin id="Tilemap" />
+                <texture original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\UIpackSheet_magenta.png" />
+                <tiles />
+            </object-type>
+        </object-folder>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Main.xml</layout>
     </layout-folder>
     <event-folder>
+        <event-folder name="EventosNaoEssenciais">
+            <event-sheet>EventosWallpaper.xml</event-sheet>
+            <event-sheet>EventosVisuaisSideBar.xml</event-sheet>
+        </event-folder>
         <event-sheet>Eventos Main.xml</event-sheet>
     </event-folder>
     <global-instances />

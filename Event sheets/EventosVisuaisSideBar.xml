@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventosVisuaisSideBar</name>
+    <events>
+        <event-group description="" sid="293537382238798" title="PropriedadesIniciaisSideBar">
+            <sub-events>
+                <event-block sid="482296880199300">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="992772310841365" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="806903976313143" type="BackgroundSideBar">
+                            <param id="0" name="Opacity">35</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

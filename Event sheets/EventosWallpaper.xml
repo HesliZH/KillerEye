@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventosWallpaper</name>
+    <events>
+        <event-group description="" sid="422497803311094" title="ControlaWallpaper">
+            <sub-events>
+                <event-block sid="116197399067937">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="491008845350891" type="Wallpaper">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="692552891818384" type="Wallpaper">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="610208216201778">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="810584422457654" type="Wallpaper">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="715518755753990" type="Wallpaper">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="979585640284715">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="342046857137588" type="Wallpaper">
+                            <param id="0" name="Instance variable">ID</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="696273983053079" type="Wallpaper">
+                            <param id="0" name="Frame number">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
