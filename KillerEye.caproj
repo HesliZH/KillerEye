@@ -65,14 +65,14 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344395963202723" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.47561" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\cpu.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.46875" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\IconesReformulados\IconeMenu.png">
                                 <collision-poly>
-                                    <point x="0.016129" y="0.109756" />
-                                    <point x="0.5" y="0.0121951" />
-                                    <point x="0.983871" y="0.109756" />
-                                    <point x="0.983871" y="0.841463" />
-                                    <point x="0.5" y="0.987805" />
-                                    <point x="0.016129" y="0.841463" />
+                                    <point x="0" y="0.0837397" />
+                                    <point x="0.5" y="0" />
+                                    <point x="1" y="0.0837397" />
+                                    <point x="1" y="0.864227" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0" y="0.864227" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -82,7 +82,7 @@
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="854204832300612" speed="5">
-                            <frame duration="1" hotspotX="0.463768" hotspotY="0.492958" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\flag.png">
+                            <frame duration="1" hotspotX="0.46875" hotspotY="0.5" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\IconesReformulados\IconeMensagens.png">
                                 <collision-poly>
                                     <point x="0.0289855" y="0.0704225" />
                                     <point x="0.463768" y="0.140845" />
@@ -91,6 +91,24 @@
                                     <point x="0.594203" y="0.619718" />
                                     <point x="0.463768" y="0.661972" />
                                     <point x="0.0289855" y="0.915493" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Voltar" sid="896581612257508">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510434897077900" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Users\User\Desktop\backup\Backup\Projetos\KillerEye\Textures\IconesReformulados\IconeVoltar.png">
+                                <collision-poly>
+                                    <point x="0.3125" y="0.3125" />
+                                    <point x="0.5" y="0.25" />
+                                    <point x="0.9375" y="0.0625" />
+                                    <point x="0.9375" y="0.5" />
+                                    <point x="0.90625" y="0.90625" />
+                                    <point x="0.3125" y="0.6875" />
+                                    <point x="0.03125" y="0.5" />
                                 </collision-poly>
                             </frame>
                         </animation>

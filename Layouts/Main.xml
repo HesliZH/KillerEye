@@ -124,19 +124,19 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>924</x>
-                        <y>1798</y>
+                        <x>937</x>
+                        <y>1793</y>
                         <z>0</z>
-                        <width>189</width>
-                        <height>214</height>
+                        <width>272</width>
+                        <height>255</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.47560975</hotspotY>
+                        <hotspotY>0.46875</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Mensagens" uid="3">
+                <instance type="Voltar" uid="10">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -146,14 +146,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>571</x>
-                        <y>1805</y>
+                        <x>165</x>
+                        <y>1804</y>
                         <z>0</z>
-                        <width>189</width>
-                        <height>214</height>
+                        <width>272</width>
+                        <height>255</height>
                         <depth>0</depth>
-                        <hotspotX>0.463768125</hotspotX>
-                        <hotspotY>0.492957741</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -284,6 +284,28 @@
                         <height>1608</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Mensagens" uid="3">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>170</x>
+                        <y>246</y>
+                        <z>0</z>
+                        <width>240</width>
+                        <height>209</height>
+                        <depth>0</depth>
+                        <hotspotX>0.46875</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>

@@ -5,14 +5,14 @@ It is entirely optional and the project will load without it.  If you are placin
 you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
         <position-x>540</position-x>
-        <position-y>960</position-y>
-        <position-z>564.473</position-z>
+        <position-y>1907.58</position-y>
+        <position-z>197.844</position-z>
         <lookat-x>540</lookat-x>
-        <lookat-y>960</lookat-y>
+        <lookat-y>1907.58</lookat-y>
         <lookat-z>0</lookat-z>
     </camera>
     <snap-to-grid>0</snap-to-grid>
-    <show-grid>0</show-grid>
+    <show-grid>1</show-grid>
     <snap-width>32</snap-width>
     <snap-height>32</snap-height>
     <show-collision-polys>0</show-collision-polys>
@@ -23,11 +23,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="TopBar_1" />
+    <active-layer name="SideBar_2" />
     <layers>
         <layer locked="1" name="WallPaper" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="SideBar_1" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="SideBar_2" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="SideBar_2" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="TopBar_1" parallax-in-editor="0" visible="1" />
         <layer locked="1" name="TopBar_2" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="MenuApp" parallax-in-editor="0" visible="1" />
