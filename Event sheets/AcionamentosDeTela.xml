@@ -31,7 +31,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="603386184769328" title="FechaMenu">
+        <event-group description="Grupo destinado ao controle de saída de aplicativos. Replicar esse código em todos os apps que abrirem dentro do game" sid="603386184769328" title="FechaMenu">
             <sub-events>
                 <event-block sid="888547683941825">
                     <conditions>

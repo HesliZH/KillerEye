@@ -166,6 +166,7 @@
         </event-folder>
         <event-folder name="EventosEsseciais">
             <event-sheet>AcionamentosDeTela.xml</event-sheet>
+            <event-sheet>CriacaoTelaApps.xml</event-sheet>
         </event-folder>
         <event-sheet>Eventos Main.xml</event-sheet>
     </event-folder>

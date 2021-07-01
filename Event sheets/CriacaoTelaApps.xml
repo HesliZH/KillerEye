@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CriacaoTelaApps</name>
+    <events>
+        <comment>Classe para codificação da entrada de aplicativos dentro do jogo</comment>
+        <comment>Organizada em método e subgrupo para as tarefas dentro do app</comment>
+        <event-group description="" sid="787883067638869" title="AppMensagem">
+            <sub-events>
+                <event-block sid="597771786479159">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="151215731656331" type="Touch">
+                            <param id="0" name="Object">Mensagens</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="827323906368077" type="System">
+                            <param id="0" name="Group name">&quot;AbrirAppMensagem&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" inactive="1" sid="813409332568163" title="AbrirAppMensagem" />
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
